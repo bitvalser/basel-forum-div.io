@@ -349,7 +349,7 @@ function login() {
     let password_input = document.getElementById('password_input');
     auth.signInWithEmailAndPassword(login_input.value, password_input.value)
         .then(() => {
-            document.location.href = '../../Dashboard.html';
+            document.location.href = '../../index.html';
         })
         .catch(error => {
             alert(error.message);
@@ -369,7 +369,7 @@ function register() {
                     nick: nick_input.value,
                     role: 'Пользователь'
                 });
-                document.location.href = '../../Dashboard.html';
+                document.location.href = '../../index.html';
             })
             .catch(error => {
                 alert(error.message);
