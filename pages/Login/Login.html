@@ -1,0 +1,51 @@
+<html>
+<head>
+    <title>Авторизация</title>
+		<link rel="stylesheet" href="Login.css">
+		<link rel="stylesheet" href="../../Common/Shared.css">
+		<div page="Login" id="page"></div>
+</head>
+<body>
+
+ <header>
+	    <div class="container">
+		<div class="heading clearfix">
+		    <a href="../../Dashboard.html"><img src="../../img/logo.png" class="logo"></a>
+			<a class="heading-item"> Витебский государственный университет имени П.М. Машерова </a>
+		    <nav>
+			    <ul class="menu">
+				    <li>
+					    <a href="../../Dashboard.html">Домашняя страница</a>
+					</li>
+					  <li>
+					    <a href="../Rules/Rules.html">Правила форума</a>
+					</li>
+					<li>
+					    <a href="../Users/Users.html">Пользователи</a>
+					</li>
+					<li>
+					    <a href="../Creater/Creater.html">Создатели</a>
+					</li>
+				</ul>
+			</nav>
+			<div id="profile" style="display: none"></div>
+		</div>
+		    <div class="titles__first">
+			Авторизация на форуме
+			</div>
+		<div class="vhod_board">
+		<input id="login_input" type="email" placeholder="Email..." />
+		<input id="password_input" type="password" placeholder="Password..." />
+		
+		<button onclick="login()">Авторизироваться</button>
+		<h4> У Вас еще нет учетной записи? </h4>
+	    <h4 class="comments"><a href="../Registration/Registration.html">Зарегистрируйтесь</a></h4>
+		</a>
+		</div>
+	</div>
+	</header>
+	<a href="#" title="Вернуться к началу" class="topbutton"><p class="topbutton_text">Наверх</p></a>
+</body>
+<script src="https://www.gstatic.com/firebasejs/5.5.7/firebase.js"></script>
+<script src="../../index.js"></script>
+</html>

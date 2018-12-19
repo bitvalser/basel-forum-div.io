@@ -1,0 +1,12 @@
+.textarea{
+	margin-left:11px;
+    margin-bottom:50px;
+	margin-top:20px;
+	border-radius:10px;
+	background-color:#f4eeee;
+	padding:15px;
+	box-shadow:0 0 10px rgba(0,0,0,0.5);
+}
+.h3_margin{
+	margin:0;
+}

@@ -1,0 +1,22 @@
+#profile_img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    float: left;
+    margin: 18px;
+    border-radius: 5px;
+    display: none;
+	cursor: pointer;
+}
+
+#profile_content {
+    color: white;
+    margin-left: 50px;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.image-upload > input
+{
+    display: none;
+}

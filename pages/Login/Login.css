@@ -1,0 +1,85 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+
+.clearfix {
+	content: '';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+
+.container {
+	width: 930px;
+	margin: 0 auto;
+}
+
+.logo {
+	margin-top: 30px;
+	float: left;
+	width: 200px;
+	height: 200px;
+}
+
+input, button {
+	font-family: 'Nunito', sans-serif;
+	font-weight: 700;
+}
+
+.vhod_board {
+	width: 100%;
+	margin-top: 60px;
+	padding: 10px;
+	margin-left: 260px;
+}
+
+.vhod_board input {
+	display: block;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	background: white;
+	padding: 15px;
+	outline: none;
+	width: 40%;
+	margin-bottom: 20px;
+}
+
+.vhod_board button {
+	background: #5d8ffc;
+	color: white;
+	border: 1px solid #5d8ffc;
+	border-radius: 5px;
+	padding: 15px;
+	display: block;
+	width: 40%;
+	transition: 0.3s;
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	cursor: pointer;
+}
+
+.vhod_board button:hover {
+	background: #fff;
+	color: #5d8ffc;
+	border: 1px solid #5d8ffc;
+}
+
+h4 {
+	text-indent: 85px;
+	color: white;
+	font-size: 13px;
+	font-family: 'Nunito', sans-serif;
+}
+
+.comments a {
+	font-family: 'Nunito', sans-serif;
+	font-size: 13px;
+	text-decoration: none;
+	color: white;
+	margin-left: 35px;
+}
+
+.comments a:hover {
+	color: #5d8ffc;
+}

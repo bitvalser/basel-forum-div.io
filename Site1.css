@@ -1,0 +1,95 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+
+.clearfix {
+	content: '';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+
+.container {
+	width: 930px;
+	margin: 0 auto;
+}
+
+.logo {
+	margin-top: 30px;
+	float: left;
+}
+
+.titles__first {
+	font-size: 24px;
+	color: white;
+	margin-left: 10px;
+	border-top: 2px groove;
+	padding: 5px;
+}
+
+h1 {
+	font-size: 15px;
+	color: white;
+	margin-left: 25px;
+}
+
+.menu-item {
+	line-height: 50px;
+	border-top: 1px black solid;
+	display: block;
+	background: #99CCFF;
+	transition: 0.5s ease-out;
+	width: 850px;
+	border-radius: 5px;
+	height: 50px;
+}
+
+.menu-item-add {
+	display: block;
+	line-height: 35px;
+	background: #00cc00;
+	color: white;
+	text-align: center;
+	margin-bottom: 10px;
+	margin-left: 700px;
+	font-size: 13px;
+	width: 150px;
+	transition: 0.5s ease-out;
+	text-transform: uppercase;
+	height: 35px;
+	border-radius: 5px;
+}
+
+.menuboard a {
+	padding: 25px;
+	font-size: 15px;
+	color: white;
+	text-decoration: none;
+}
+
+.menu-item:hover {
+	background: #CC99FF;
+	transform: scale(1.01);
+	box-shadow: 0 0 14px rgba(0, 0, 0, 0.5);
+}
+
+.menu-item-add:hover {
+	background: #009900;
+}
+
+.menuboard a:hover {
+	text-decoration: underline;
+}
+
+.sozd {
+	float: right;
+	color: white;
+	margin-right: 5px;
+}
+
+.forum-author {
+	float: right;
+	color: #7c8ee8;
+	margin-right: 15px;
+}

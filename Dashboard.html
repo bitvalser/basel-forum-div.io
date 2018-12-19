@@ -1,0 +1,69 @@
+<html>
+<head>
+    <title>Форум ВГУ</title>
+	<link rel="stylesheet" href="Dashboard.css">
+	<link rel="stylesheet" href="./Common/Shared.css">
+	<div page="Dashboard" id="page"></div>
+</head>
+<body>
+
+	<div class="lds-roller" id="loading"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+
+    <header>
+	    <div class="container">
+		<div class="heading clearfix">
+		    <a href="#"><img src="./img/logo.png" class="logo"></a>
+			<a class="heading-item"> Витебский государственный университет имени П.М. Машерова </a>
+		    <nav>
+			    <ul class="menu">
+				    <li>
+					    <a href="./Dashboard.html">Домашняя страница</a>
+					</li>
+					 <li>
+					    <a href="./pages/Rules/Rules.html">Правила форума</a>
+					</li>
+					<li>
+					    <a href="./pages/Users/Users.html">Пользователи</a>
+					</li>
+					<li>
+					    <a href="./pages/Creater/Creater.html">Создатели</a>
+					</li>
+					<li style="padding-left: 21px;">
+						<a href="./pages/Login/Login.html">Вход</a>
+					</li>
+					<li>
+						<a href="./pages/Registration/Registration.html">Регистрация</a>
+					</li>
+				</ul>
+			</nav>
+			<div id="profile" style="display: none">
+				<h2 class="logcap">                   
+					Вы вошли как: <a id="profile-nickname" href="./pages/Profile/Profile.html?userUid="></a>
+					<button class="logOut" onclick="logOut()">Выйти</button>
+				</h2>
+			</div>
+		</div>
+		<div>
+		    <div class="titles__first">
+			Общий раздел
+			</div>
+			<h1>
+			Список форумов
+			</h1>
+			<div>
+			    <ul class="menuboard" id="forums"></ul>
+			</div>
+		</div>
+		
+		<p></p>
+		</div>
+	</header>
+	<section>
+	<div class="container">
+	</div>
+	</section>
+<a href="#" title="Вернуться к началу" class="topbutton"><p class="topbutton_text">Наверх</p></a>
+</body>
+<script src="https://www.gstatic.com/firebasejs/5.5.7/firebase.js"></script>
+<script src="./index.js"></script>
+</html> 

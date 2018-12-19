@@ -1,0 +1,76 @@
+h1 {
+	font-size: 15px;
+	color: white;
+	margin-left: 25px;
+}
+
+.users-list {
+    left: 50%;
+    transform: translate(-50%);
+    position: relative;
+}
+
+
+.user-container {
+    min-width: 500px;
+    margin: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    line-height: 37px;
+}
+
+.avatar {
+    overflow: hidden;
+    background: gray;
+    float: left;
+	margin-left: 120px;
+    border-radius: 5px;
+}
+
+.avatar > img {
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+}
+
+.user-info {
+    margin-left: 225px;
+    padding: 10px;
+    background: white;
+    border-radius: 5px;
+    height: 80px;
+    overflow: hidden;
+	width: 500px;
+}
+
+.nick {
+	line-height: 10px;
+    color: #0093d4;
+    font-size: 20px;
+    margin: 0px !important;
+    display: inline-block;
+}
+
+.role {
+    margin: 0px !important;
+    display: inline-block;
+    padding: 0px 5px 0px 5px;
+    border-radius: 7px;
+    text-align: center; 
+}
+
+
+#user-finder {
+	display: block;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	background: white;
+	padding: 15px;
+	outline: none;
+    min-width: 500px;
+    left: 50%;
+    transform: translate(-50%);
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,113 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+
+.clearfix {
+	content: '';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+
+.container {
+	width: 930px;
+	margin: 0 auto;
+}
+
+.logo {
+	margin-top: 30px;
+	float: left;
+	width: 200px;
+	height: 200px;
+}
+
+nav {
+	left: 20px;
+	position: relative;
+}
+
+.menu {
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+
+.menu li {
+	float: left;
+	display: block;
+	margin-right: 21px;
+}
+
+.menu a {
+	font-size: 12px;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+
+
+.baselImage {
+	max-width: 300px;
+    max-height:300px;
+	border:0;
+	border-radius:5px;
+	object-fit:cover;
+    background-position: center;
+}
+
+.VitalyImage {
+	max-width: 225px;
+    max-height:300px;
+	border:0;
+	border-radius:5px;
+	object-fit: cover;
+    background-position: center;
+	
+}
+
+.NameOfCreators{
+    font-size:18px;
+	text-align: center;
+	margin-top: -1px;
+}
+
+.creator{
+	display:flex;
+	margin-left:7px;
+	margin: 20px;
+	background-color:#f4eeee;
+	border-radius:5px;
+	box-shadow:0 0 10px rgba(0,0,0,0.5);
+}
+
+.Logo2{
+	height:40px;
+	margin:0 auto;
+}
+
+.authorData{
+	width: 50%;
+    margin-left: 15px;
+	padding-top:20px;
+	
+}
+
+.authorDescription{
+	font-size:15px;	
+}
+
+.author_font_weight1{
+	font-weight:600;
+}
+
+.links{
+	display:flex;
+	justify-content:center;
+	list-style: none;
+}
+
+.links li{
+	margin-right:10px;
+}
